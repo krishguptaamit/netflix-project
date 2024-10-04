@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+}
+.feature{
+width: 100%;
+height: 750px;
+background:rgba(0,0,0,0.6) url(images/Netflix2024.png);
+background-blend-mode: darken;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/*.logo{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}*/
+.nav{
+    width: 100%;
+    height: 100px;
+   /* background-color: rgb(47, 180, 32);*/
+position: relative;
+display: inline-block;
+justify-content: space-between;
+}
+
+.logo{
+    height: 33%;
+    width: 33%;
+    margin: 10px 20px;
+    position: absolute;
+    top: 15px;
+    left: 130px;
+  
+}
+
+.logo img{
+    width: 30%;
+}
+
+/*right navbar*/
+.right{
+    display: inline-block;
+}
+
+.select1{
+    position: relative;
+    top: 20px;
+    left: 1170px;
+    font-size:20px;
+    background: transparent;
+    border-radius: 2px;
+    border: 0.3px solid white;
+    color: white;
+    
+}
+ 
+.btn3{
+    position: relative;
+    top: 20px;
+    left: 1180px;
+    font-size:20px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: rgba(3, 0, 0, 0);
+}
+
+
+
+/*text membership*/
+.parg{
+    height: 100px;
+    color: rgb(244, 244, 244);
+    text-align: center;
+    font-size: 32px;
+    margin: 120px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.tv{
+    font-size:65px ;
+    position: relative;
+    top: -25px;
+}
+
+.rupee{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: -27px;
+}
+
+.membership{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/*email address*/
+
+
+.add{
+font-size: 40px;
+background: transparent;
+border: 2px solid white;
+border-radius: 8px;
+position: relative;
+top: 30px;
+color: white;
+}
+
+.btn{
+font-size: 40px;
+border: 2px solid rgb(236, 4, 4);
+border-radius: 8px;
+position: relative;
+top: 30px;
+background-color: red;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(3, 0, 0, 0);
+}
+
+/*feature 1*/
+.feature1{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    background-color: black;
+   
+}
+
+.ftext2{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 950px;
+    left: 800px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.ftext3{
+     color: white;
+    display: inline-block;
+    position: absolute;
+    top: 1030px;
+    left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.ftext4{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 1060px;
+    left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/*feature 2*/
+.feature2{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+   }
+
+   .ftext5{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 680px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+
+}
+.ftext6{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 680px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+.ftext7{
+    color: white;
+    position: absolute;
+    top: 220px;
+    left:680px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.ftext8{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left:680px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/*feature 3*/
+.feature3{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.ftext9{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.ftext10{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left:800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+.ftext11{
+    color: white;
+    position: absolute;
+    top: 280px;
+    left:800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/*feature 4*/
+.feature4{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.ftext12{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.ftext13{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left:800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+.ftext14{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left:800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+.ftext15{
+    color: white;
+    position: absolute;
+    top: 310px;
+    left:800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/*question answer*/
+.ques{
+    width: 100%;
+    height: 1100px;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.qtext1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+        margin-left: 90px;
+        padding-top: 90px;
+        margin-bottom: 30px;
+}
+
+
+
+/*box1*/
+.box1{
+    height: 99px;
+    width: 1299px;
+    background-color:rgba(255, 255, 255, 0.319); 
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.box1:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+
+.bx1{
+    margin-left: 20px;
+}
+.bx2{
+    margin-right: 20px;
+    font-size: 60px;
+}
+
+/*box2,box3,box4,box5,box6*/
+.box2,.box3,.box4,.box5,.box6{
+    height: 99px;
+    width: 1299px;
+    background-color: rgba(255, 255, 255, 0.319); 
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+.box3:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+.box4:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+.box5:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+.box6:hover{
+    background-color: rgba(255, 255, 255, 0.099);
+}
+
+
+.bx3,.bx5,.bx7,.bx9,.bx11{
+    margin-left: 20px;
+}
+.bx4,.bx6,.bx8,.bx10,.bx12{
+    margin-right: 20px;
+    font-size: 60px;
+}
+
+.qtext2{
+    margin-top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+/*get started*/
+.int{
+   display:inline-block; 
+   position: relative;
+   text-align: center;
+}
+
+.eml2{
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 50px;
+    background: transparent;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    color: white;
+}
+
+.eml3{
+    font-size: 50px;
+    font-weight: 100px;
+    background-color: red;
+    border: 2px solid rgb(226, 16, 16);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.eml3:hover{
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+
+/*footer*/
+.footer1{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    background-color: black;
+    position: relative;
+   
+}
+
+.ftext16{
+    padding-left: 140px;
+    color: rgba(255, 255, 255, 0.319);
+   font-size: 22px;
+   position: absolute;
+   top: 25px;
+}
+.row1{
+    padding-left: 140px;
+    color: rgba(255, 255, 255, 0.319); 
+    position: absolute;
+    top: 120px;
+    font-size: 18px;
+   
+}
+
+.a1{
+    margin-right: 180px;
+}
+.a2{
+    margin-right: 180px;
+}
+.a3{
+    margin-right: 180px;
+}
+.a4{
+    margin-right: 180px;
+}
+
+
+.row2{
+    padding-left: 140px;
+    color: rgba(255, 255, 255, 0.319); 
+    position: absolute;
+    top: 160px;
+    font-size: 18px;
+   
+}
+
+.a5{
+    margin-right: 189px;
+}
+.a6{
+    margin-right: 180px;
+}
+.a7{
+    margin-right: 180px;
+}
+.a8{
+    margin-right: 180px;
+}
+
+
+.row3{
+    padding-left: 140px;
+    color: rgba(255, 255, 255, 0.319); 
+    position: absolute;
+    top: 200px;
+    font-size: 18px;
+   
+}
+
+.a9{
+    margin-right: 180px;
+}
+.a10{
+    margin-right: 120px;
+}
+.a11{
+   
+    margin-right: 120px;
+}
+.a12{
+    margin-right: 180px;
+}
+
+
+.row4{
+    padding-left: 140px;
+    color: rgba(255, 255, 255, 0.319); 
+    position: absolute;
+    top: 240px;
+    font-size: 18px;
+   
+}
+
+.a13{
+    margin-right: 180px;
+}
+.a14{
+    margin-right: 150px;
+}
+.a15{
+   
+    margin-right: 120px;
+}
+
+.select2{
+    position: relative;
+    top: 350px;
+    left: 150px;
+    font-size:20px;
+    background: transparent;
+    border-radius: 2px;
+    border: 0.3px solid white;
+    color: white;
+    
+}
+
+.text2{
+    color: rgba(255, 255, 255, 0.203);
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
